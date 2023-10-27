@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.column {
+    flex-basis: 45%;
+    padding: 20px;
+    background-size: cover;
+    position: relative;
+}
+.column img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.column h2 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin: 100px;
+}
+
+.column h3 {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.arrow {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+#section__dos{
+    height: 100vh;
+    /* background: url('Home/lineaazul2.png'); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section__tres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 20px;
+}
